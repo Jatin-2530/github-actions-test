@@ -1,0 +1,16 @@
+Understanding CI/CD: A DevOps Approach
+1. What is CI/CD?
+CI/CD (Continuous Integration and Continuous Deployment/Delivery) is a DevOps practice that automates software development workflows to improve code quality, speed up deployments, and reduce manual errors.
+
+Continuous Integration (CI)
+Developers frequently merge code changes into a shared repository.
+Automated tests are run to catch integration issues early.
+Tools: Jenkins, GitHub Actions, GitLab CI/CD, Travis CI.
+Continuous Deployment (CD)
+Every successful CI build is automatically deployed to production.
+Requires rigorous automated testing to prevent faulty releases.
+Tools: Kubernetes, ArgoCD, Spinnaker, AWS CodeDeploy.
+Continuous Delivery (CD)
+Ensures every successful build is ready for manual or automated deployment.
+Useful when regulatory or business approval is needed before production deployment.
+Tools: CircleCI, Azure DevOps, Bitbucket Pipelines.
